@@ -338,3 +338,19 @@ A **Key** in a database is an attribute (or a set of attributes) used to uniquel
 | Composite Key  | Key with 2+ attributes | ✅ Yes (if used) |
 | Partial Key    | Uniquely identifies weak entity with strong entity’s PK | ❌ Conceptual only |
 | Super Key      | Any attribute set that uniquely identifies | ❌ Conceptual only |
+
+---
+
+========== Steps To Make ERD ==========
+
+Read Documentation 2 Times:
+  1- Get Entities & Attributes
+  2- Get Relationships (Degree - Cardinalty - Participations)
+
+-Ternary
+   * Don't Look At Cardinalty & Participations
+
+-Binary => M-M
+   * Don't Look At Participations
+
+-Weak Entity Always Total Participations

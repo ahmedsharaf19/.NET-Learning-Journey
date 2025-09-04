@@ -134,3 +134,41 @@ Focus on the **M-side**:
   - **1:1** → Multiple cases (mandatory/optional combinations).  
   - **1:M** → Fewer cases.  
   - **M:M** → Always one case (new table).  
+---
+
+============================= Mapping Steps =============================
+Step 0: Mapping 1-1 relationship mandatory from 2 sides
+        => One Table , Choose PK of any entity to this table.
+
+Step 1: Mapping of Regular (Strong) Entity Types
+       => simple attributes
+       => composite attribute     => Take Components of Attribute
+       => Multi-Valued attribute  => New Table PK Composite
+       => Derived Attribute       => Not Mapped
+       => Complex Attribute       => New Table With Components of Attribute 
+
+Step 2: Mapping of Weak Entity Types 
+        => New Table PK Composite between FK & Partial Key
+
+Step 3: Mapping of Binary 1:1 Relation Types
+       => Both sides are Mandatory. 
+                => One Table , Choose PK of any entity to this table.
+       => Mandatory - Optional.
+                => 2 Tables , Take PK Of Optional As FK In Mandatory Table.
+       => Both sides are Optional
+                => 3 Tables ,  Choose PK of any entity to this table
+Step 4: Mapping of Binary 1:N Relationship Types.
+       => N-Side Mandatory. 
+                => 2 Tables , Take PK Of One As FK in Many
+       => N-Side Optional. 
+                => 3 Tables , PK of Third Table is PK of Many
+
+Step 5: Mapping of Binary M:N Relationship Types.
+                => 3 Tables , PK of Third Table is Composite PK (PK1 + PK2)
+Step 6: Mapping of N-ary Relationship Types.
+                => Table for Each Entity 
+                   + Table for Relation Contains PKs of each table as FK
+                    ( PK is Composite PK).
+
+Step 7: Mapping of Unary Relationship.
+
