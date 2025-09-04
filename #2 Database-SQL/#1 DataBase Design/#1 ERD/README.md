@@ -341,16 +341,16 @@ A **Key** in a database is an attribute (or a set of attributes) used to uniquel
 
 ---
 
-========== Steps To Make ERD ==========
+# ========= Steps To Make ERD =========
 
-Read Documentation 2 Times:
--  1- Get Entities & Attributes
--  2- Get Relationships (Degree - Cardinalty - Participations)
+Read Documentation 2 Times:  
+1- Get Entities & Attributes  
+2- Get Relationships (Degree - Cardinality - Participations)  
 
-- -Ternary
--   * Don't Look At Cardinalty & Participations
+- Ternary  
+  * Don't Look At Cardinality & Participations  
 
-- -Binary => M-M
--   * Don't Look At Participations
+- Binary => M-M  
+  * Don't Look At Participations  
 
-- -Weak Entity Always Total Participations
+- Weak Entity Always Total Participations  
