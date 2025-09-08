@@ -93,9 +93,8 @@
 /*
    Multi-line comment
 */
-
--- Comments are important to explain the code 
--- and make it easier for others to understand later.
+```
+- Comments are important to explain the code and make it easier for others to understand later.
 
 ---
 ## 5 - Variables
@@ -122,7 +121,7 @@ SET @age = 30;
 -- Printing variables
 PRINT @@VERSION;
 PRINT @age;
-
+```
 --
 ## Naming Conventions
 
@@ -137,11 +136,11 @@ DECLARE @FirstName VARCHAR(50);
 -- First word starts with lowercase, 
 -- then every next word starts with capital letter.
 DECLARE @firstName VARCHAR(50);
+```
 
-
--- Important Note:
--- SQL Server is NOT case sensitive.
--- So 'ahmed' is the same as 'AHMED'.
+### Important Note:
+- SQL Server is NOT case sensitive.
+- So 'ahmed' is the same as 'AHMED'.
 SELECT 'ahmed' AS Name;
 SELECT 'AHMED' AS Name;
 ---
@@ -252,8 +251,8 @@ CREATE TABLE TableName (
     ...
 );
 
-
--- Common Constraints:
+```
+#### Common Constraints:
 -- PRIMARY KEY       → defines a primary key
 -- IDENTITY(start, step) → auto-increment values
 -- NOT NULL          → column cannot be null (default is NULL)
@@ -262,8 +261,7 @@ CREATE TABLE TableName (
 -- DEFAULT value     → set a default value
 
 
-
--- Notes:
+#### Notes:
 -- - For composite primary key, define at the end:
 PRIMARY KEY (Column1, Column2);
 
@@ -323,7 +321,7 @@ REFERENCES AnotherTable(ColumnPK);
 ALTER TABLE TableName
 ADD FOREIGN KEY (ColumnInThisTable)
 REFERENCES AnotherTable(ColumnPK);
-
+```
 
 ## 3. DROP
 
@@ -338,7 +336,7 @@ DROP DATABASE DatabaseName;
 ---- 
 ## Note
 - These actions can also be performed using the Wizard (GUI) in SQL Server Management Studio (SSMS).
-
+```
 
 ---
 ## Database Files
