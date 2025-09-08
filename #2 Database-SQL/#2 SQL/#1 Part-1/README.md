@@ -253,15 +253,16 @@ CREATE TABLE TableName (
 
 ```
 #### Common Constraints:
--- PRIMARY KEY       → defines a primary key
--- IDENTITY(start, step) → auto-increment values
--- NOT NULL          → column cannot be null (default is NULL)
--- UNIQUE            → ensures values are not duplicated
--- REFERENCES TableName(ColumnsName)       → FOREIGN KEY is REFERENCES to OtherTable
--- DEFAULT value     → set a default value
+- PRIMARY KEY       → defines a primary key
+- IDENTITY(start, step) → auto-increment values
+- NOT NULL          → column cannot be null (default is NULL)
+- UNIQUE            → ensures values are not duplicated
+- REFERENCES TableName(ColumnsName)       → FOREIGN KEY is REFERENCES to OtherTable
+- DEFAULT value     → set a default value
 
 
 #### Notes:
+```sql
 -- - For composite primary key, define at the end:
 PRIMARY KEY (Column1, Column2);
 
@@ -269,7 +270,7 @@ PRIMARY KEY (Column1, Column2);
 [Column] INT;
 
 -- - Foreign key’s datatype must match the referenced primary key datatype.
-
+```
 
 ## 2. ALTER
 
