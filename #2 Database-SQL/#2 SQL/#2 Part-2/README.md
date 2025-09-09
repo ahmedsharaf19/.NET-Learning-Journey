@@ -5,7 +5,6 @@
 2. Data Query Language (DQL) Category - SELECT  
 3. Joins  
 4. Joins + DML  
-5. Backup and Restore  
 ---
 ## 📝 1. Data Manipulation Language (DML)
 
@@ -229,8 +228,10 @@ When writing a query, the logical execution order is:
 3. **ORDER BY**
 ---
 ## 📝 3. Joins
+
 `JOINS` are used with `SELECT` to display data from **multiple tables**.  
 They are needed when the required information is not stored in a single table.  
+
 ⚠️ Note: Joins are **not the best in performance**, so if the needed data can be retrieved from one table, it’s better to avoid using them.  
 ---
 ### 🔹 1. Cross Join (Cartesian Product)
@@ -401,3 +402,40 @@ We can use LEFT or RIGHT OUTER JOIN in multi-table joins.
 - Outer Join → Matching + non-matching (Left, Right, Full).
 - Self Join → Joining a table with itself.
 - Multi-Table Join → Joining 3+ tables, often for M:M relationships.
+---
+### 🔹 4. Joins + DML
+
+Sometimes we need to **update** or **delete** records that depend on data from multiple tables.  
+The trick is to first **think in terms of a SELECT with JOIN**, then convert it to `UPDATE` or `DELETE`.  
+---
+
+#### ✅ 1. UPDATE with JOIN
+Suppose we want to increase the grade by 10 for all students living in **Cairo**.  
+
+First, we would select them:
+```sql
+SELECT *
+FROM Student Std
+WHERE Std.st_address = 'Cairo';
+```
+Now, we modify it into an UPDATE with JOIN:
+```sql
+UPDATE Std_Crs
+SET Grade = Grade + 10
+FROM Student Std JOIN Std_Course Std_Crs
+ON Std.st_id = Std_Crs.st_id
+WHERE Std.st_address = 'Cairo';
+```
+
+#### ✅ 2. DELETE with JOIN
+Suppose we want to delete all course records for students older than 28 years.
+```sql
+DELETE Std_Crs
+FROM Student Std JOIN Std_Course Std_Crs
+ON Std.st_id = Std_Crs.st_id
+WHERE Std.st_age > 28;
+```
+#### ⚡ Notes:
+- Always start by writing the SELECT to confirm which rows will be affected.
+- Then carefully convert it to UPDATE or DELETE.
+- Be extra cautious: a missing WHERE will affect all rows.
