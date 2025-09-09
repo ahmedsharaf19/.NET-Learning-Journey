@@ -228,3 +228,176 @@ When writing a query, the logical execution order is:
 2. **SELECT**
 3. **ORDER BY**
 ---
+## 📝 3. Joins
+`JOINS` are used with `SELECT` to display data from **multiple tables**.  
+They are needed when the required information is not stored in a single table.  
+⚠️ Note: Joins are **not the best in performance**, so if the needed data can be retrieved from one table, it’s better to avoid using them.  
+---
+### 🔹 1. Cross Join (Cartesian Product)
+In a Cross Join, **every record** in the first table is combined with **every record** in the second table.  
+
+Old Syntax:  
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Employees, Departments;
+```
+New Syntax:  
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Employees Cross Join Departments;
+```
+
+- This will return the Cartesian Product of the two tables.
+👉 Typically, the result contains data that is not real (combinations without actual relationships).
+We use it rarely, only if the business logic requires it.
+
+### 🔹 Using Table Aliases
+We can assign aliases (short names) to tables for easier reference in queries:
+```sql
+SELECT S.Size, C.Color
+FROM Sizes S, Colors C;
+```
+Here:
+Sizes → S .
+Colors → C .
+- Aliases make queries shorter and more readable, especially when dealing with multiple tables.
+
+### 🔹 2. Inner Join
+The `INNER JOIN` returns only the **matching records** between the two tables — that is, the records in the first table that have a related record in the second table.  
+
+---
+
+#### ✅ Old Syntax
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Employees E, Departments D
+WHERE D.Id = E.Dept_Id;
+```
+#### ✅ New Syntax
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Employees E INNER JOIN Departments D
+ON D.Id = E.Dept_Id;
+```
+👉 The keyword INNER is optional; you can simply write JOIN.
+✅ Notes
+- The join condition is usually written as: PK = FK.
+- Additional filtering conditions can be applied.
+- Best practice: put filtering conditions in the WHERE clause at the end.
+Example with filter:
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Employees E INNER JOIN Departments D
+ON D.Id = E.Dept_Id
+WHERE E.Salary >= 4000;
+```
+### 🔹 3. Outer Join
+The `OUTER JOIN` is used to return both the **matching records** and the **non-matching records** from one or both tables.  
+There are 3 types:  
+---
+
+#### ✅ 1. Left Outer Join
+Returns all records from the **left table**, and the matching records from the right table.  
+If there is no match, `NULL` will appear for the right table’s columns.  
+
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Departments D LEFT OUTER JOIN Employees E
+ON D.Id = E.Dept_Id;
+```
+👉 The keyword OUTER is optional:
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Departments D LEFT JOIN Employees E
+ON D.Id = E.Dept_Id;
+```
+#### ✅ 2. Right Outer Join
+Returns all records from the right table, and the matching records from the left table.
+If there is no match, NULL will appear for the left table’s columns.
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Departments D RIGHT OUTER JOIN Employees E
+ON D.Id = E.Dept_Id;
+```
+👉 The keyword OUTER is optional:
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Departments D RIGHT JOIN Employees E
+ON D.Id = E.Dept_Id;
+```
+#### ✅ 3. Full Outer Join
+Returns all records from both tables, whether they match or not.
+Unmatched records will show NULL in the corresponding columns.
+```sql
+SELECT Emp_Name, Dept_Name
+FROM Departments D FULL OUTER JOIN Employees E
+ON D.Id = E.Dept_Id;
+```
+#### ⚡ Notes:
+The order of tables matters in LEFT and RIGHT OUTER JOIN.
+The order also matters in multi-table joins.
+
+### 🔹 4. Self Join
+A `SELF JOIN` is when a table is joined with itself.  
+This is typically used to represent a **self-relationship** inside the same table.  
+We treat the same table as if it were two separate tables by giving each one an **alias**.  
+---
+#### ✅ Example 1: Employees with their Managers
+```sql
+SELECT Emp.*, Manager.Emp_Name
+FROM Employees Manager JOIN Employees Emp
+ON Manager.Id = Emp.Manager_Id;
+```
+Here, the Employees table is used twice:
+Manager alias → represents the manager .
+Emp alias → represents the employee .
+
+##### ✅ Example 2: Students with or without Supervisors
+A SELF JOIN can be done with either INNER JOIN or OUTER JOIN.
+Using LEFT JOIN to include students with no supervisors:
+```sql
+SELECT Std.*, Supervisor.St_FName
+FROM Student Std LEFT JOIN Student Supervisor
+ON Supervisor.St_Id = Std.St_Supervisor;
+```
+#### ⚡ Notes:
+A SELF JOIN is useful for hierarchical data like employees and managers, or students and supervisors.
+Works with INNER, LEFT, RIGHT, or FULL OUTER JOIN.
+
+
+### 🔹 5. Multi-Table Join
+A `Multi-Table Join` is used when we need information from more than two tables.  
+This usually happens in a **many-to-many (M:M) relationship** that was converted into two **one-to-many (1:M)** relationships using a linking table.  
+
+---
+#### ✅ Example 1: Employees, Projects, and EmployeeProjects
+```sql
+SELECT Emp.Emp_Name, Proj.PName, EmpPro.Hours
+FROM Employees Emp, Projects Pro, EmployeeProjects EmpPro
+WHERE Emp.Id = EmpPro.Emp_Id AND Pro.Pnum = EmpPro.Project_Num;
+```
+#### ✅ Example 2: Using Virtual Table with INNER JOIN
+```sql
+SELECT Std.St_FName, Crs.Crs_Name, StdCrs.Grade
+FROM Student Std INNER JOIN Std_Course StdCrs
+ON Std.St_Id = StdCrs.St_Id
+INNER JOIN Course Crs
+ON Crs.Crs_Id = StdCrs.Crs_Id;
+```
+#### ✅ Outer Joins in Multi-Table Join
+We can use LEFT or RIGHT OUTER JOIN in multi-table joins.
+👉 Here, the order of tables matters and becomes very important.
+
+---
+### 🔹 Summary of Joins
+
+- Joins are used when retrieving data from multiple tables.
+- The join condition is almost always (PK = FK).
+
+#### Types of Joins:
+
+- Cross Join → Cartesian product (rarely used, unless required by business).
+- Inner Join → Only matching records.
+- Outer Join → Matching + non-matching (Left, Right, Full).
+- Self Join → Joining a table with itself.
+- Multi-Table Join → Joining 3+ tables, often for M:M relationships.
