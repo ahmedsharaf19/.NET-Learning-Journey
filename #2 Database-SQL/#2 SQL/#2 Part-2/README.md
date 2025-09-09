@@ -117,7 +117,7 @@ To select all columns from a table, use *:
 SELECT *
 FROM TableName;
 ```
-###🔹 SELECT with Condition
+### 🔹 SELECT with Condition
 To display specific records based on a condition:
 ```sql
 SELECT ColumnName
@@ -157,7 +157,7 @@ SELECT *
 FROM TableName
 WHERE Column IN (Value1, Value2, Value3);
 ```
-To exclude values, use ***NOT IN**:
+To exclude values, use **NOT IN**:
 ```sql
 SELECT *
 FROM TableName
@@ -194,3 +194,37 @@ FROM TableName
 WHERE Column LIKE '_a';
 ```
 👉 This means the second character must be a.
+
+### 🔹 Additional Features in SELECT
+#### ✅ Remove Duplicates with DISTINCT
+To display data without duplication:  
+```sql
+SELECT DISTINCT ColumnName
+FROM TableName;
+```
+#### ✅ Sorting Results with ORDER BY
+To return the values sorted (ascending by default):
+```sql
+SELECT ColumnName
+FROM TableName
+ORDER BY ColumnName ASC;
+```
+To sort in descending order:
+```sql
+SELECT ColumnName
+FROM TableName
+ORDER BY ColumnName DESC;
+```
+#### ✅ Multi-Column Sorting
+If two rows have the same value in the first column, sorting can be based on the second column:
+```sql
+SELECT Column1, Column2
+FROM TableName
+ORDER BY Column1 ASC, Column2 DESC;
+```
+#### ⚡ Note on Execution Order:
+When writing a query, the logical execution order is:
+1. **FROM**
+2. **SELECT**
+3. **ORDER BY**
+---
