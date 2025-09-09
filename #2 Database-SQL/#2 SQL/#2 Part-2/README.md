@@ -42,3 +42,40 @@ If a column is not specified in the INSERT statement, it must satisfy at least o
 3. It is a Timestamp column → automatically filled with the current time.  
 4. It allows NULL values.  
 5. It is a Computed column → automatically calculated.  
+
+### 🔹 UPDATE
+The `UPDATE` statement is used to modify existing values in a record.  
+
+To update a column for **all rows**:  
+```sql
+UPDATE TableName
+SET ColumnName = value;
+```
+⚠️ This will change the value for every row in that column.
+
+To update a specific row, we use a condition:
+```sql 
+UPDATE TableName
+SET ColumnName = value
+WHERE Condition;
+```
+The condition usually targets the Primary Key (PK) or an Identity column, for example:
+```sql
+UPDATE Employees
+SET Salary = 5000
+WHERE ID = 4;
+```
+We can also update multiple columns at once:
+```sql
+UPDATE TableName
+SET Column1 = value1, Column2 = value2
+WHERE Condition;
+```
+To update multiple rows at once, we control the condition to match more than one record. 
+
+For example, increase the salary by 10% for all female employees earning less than or equal to 4000:
+```sql
+UPDATE Employees
+SET Salary = Salary + (Salary * 0.1)
+WHERE Gender = 'F' AND Salary <= 4000;
+```
