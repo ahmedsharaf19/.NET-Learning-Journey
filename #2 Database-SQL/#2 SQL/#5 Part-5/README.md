@@ -167,11 +167,11 @@ CREATE TABLE [ServerName].[DbName].[Sales].[Orders] (
     OrderDate DATETIME
 )
 ```
-- Shortcuts
-If the object is in the dbo schema, you can omit [SchemaName].
-If you are connected to the correct database, you can omit [DatabaseName].
-If you are already connected to the correct server, you can omit [ServerName].
-So this is valid if using default schema and current DB:
+Shortcuts: 
+- If the object is in the dbo schema, you can omit [SchemaName].
+- If you are connected to the correct database, you can omit [DatabaseName].
+- If you are already connected to the correct server, you can omit [ServerName].
+- So this is valid if using default schema and current DB:
 ```sql
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
@@ -193,11 +193,12 @@ Grant or deny permissions at the schema level.
 Example: Allow the HR team access only to objects inside the HR schema.
 ---
 #### Summary
-A schema is a logical container inside a database.
-Default schema is dbo.
-Always reference objects with their fully qualified name when needed:
-[Server].[Database].[Schema].[Object]
-Use schemas to avoid naming conflicts, logically group objects, and manage permissions efficiently.
+
+- A schema is a logical container inside a database.
+- Default schema is dbo.
+- Always reference objects with their fully qualified name when needed: [Server].[Database].[Schema].[Object]
+- Use schemas to avoid naming conflicts, logically group objects, and manage permissions efficiently.
+
 ---
 ### 1️⃣  Create a New Schema
 To create a schema, use `CREATE SCHEMA` followed by the schema name.
@@ -331,9 +332,9 @@ SELECT column_list
 FROM   SourceTable
 [WHERE condition]
 ```
-- Key Points
-The number of columns in the SELECT must match the number of columns in the INSERT target list.
-The data types must be compatible position by position.
+Key Points: 
+- The number of columns in the SELECT must match the number of columns in the INSERT target list.
+- The data types must be compatible position by position.
 
 ### Examples
 - 1️⃣ Insert All Columns (Order Matters)
@@ -358,9 +359,9 @@ WHERE Department = 'IT'
 The columns in the SELECT must correspond in order to those listed in the INSERT.
 
 ### Notes & Tips
-You can select from multiple tables (using JOINs) as long as the final projection matches the target table columns.
-DEFAULT constraints on target columns will fill in any omitted columns if not specified.
-Unlike SELECT INTO, this statement does not create the target table—it must already exist.
+- You can select from multiple tables (using JOINs) as long as the final projection matches the target table columns.
+- DEFAULT constraints on target columns will fill in any omitted columns if not specified.
+- Unlike SELECT INTO, this statement does not create the target table—it must already exist.
 
 ### Quick Comparison
 | Feature                 | `SELECT INTO`                           | `INSERT ... SELECT`                    |
@@ -411,9 +412,9 @@ Completely remove the table and its definition:
 DROP TABLE Employees
 ```
 ### Key Takeaways
-DELETE: Use when you need to remove specific rows or log each deletion.
-TRUNCATE: Use when you need to clear a table entirely but keep its structure for reuse.
-DROP: Use when you no longer need the table or want to permanently remove its schema object.
+- DELETE: Use when you need to remove specific rows or log each deletion.
+- TRUNCATE: Use when you need to clear a table entirely but keep its structure for reuse.
+- DROP: Use when you no longer need the table or want to permanently remove its schema object.
 ---
 
 ## 7. Relationship Rules (ON UPDATE / ON DELETE)
@@ -561,10 +562,10 @@ Defines **name**, **parameters**, and **return type**.
 CREATE FUNCTION [SchemaName].[FunctionName] ( @param1 datatype, @param2 datatype )
 RETURNS <ReturnType>
 ```
-- ReturnType
-Scalar UDF → a single value (INT, VARCHAR, DATETIME, etc.) .
-Inline Table-Valued UDF → TABLE .
-Multi-Statement Table-Valued UDF → @TableVariable TABLE(...) with column definitions .
+ReturnType:
+- Scalar UDF → a single value (INT, VARCHAR, DATETIME, etc.) .
+- Inline Table-Valued UDF → TABLE .
+- Multi-Statement Table-Valued UDF → @TableVariable TABLE(...) with column definitions .
 
 
 Example Signatures:
