@@ -562,9 +562,9 @@ CREATE FUNCTION [SchemaName].[FunctionName] ( @param1 datatype, @param2 datatype
 RETURNS <ReturnType>
 ```
 - ReturnType
-Scalar UDF → a single value (INT, VARCHAR, DATETIME, etc.).
-Inline Table-Valued UDF → TABLE.
-Multi-Statement Table-Valued UDF → @TableVariable TABLE(...) with column definitions.
+Scalar UDF → a single value (INT, VARCHAR, DATETIME, etc.) .
+Inline Table-Valued UDF → TABLE .
+Multi-Statement Table-Valued UDF → @TableVariable TABLE(...) with column definitions .
 
 
 Example Signatures:
