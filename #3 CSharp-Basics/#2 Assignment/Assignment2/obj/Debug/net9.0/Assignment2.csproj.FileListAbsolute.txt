@@ -1,0 +1,15 @@
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\bin\Debug\net9.0\Assignment2.exe
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\bin\Debug\net9.0\Assignment2.deps.json
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\bin\Debug\net9.0\Assignment2.runtimeconfig.json
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\bin\Debug\net9.0\Assignment2.dll
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\bin\Debug\net9.0\Assignment2.pdb
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.AssemblyInfoInputs.cache
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.AssemblyInfo.cs
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.csproj.CoreCompileInputs.cache
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.sourcelink.json
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.dll
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\refint\Assignment2.dll
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.pdb
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\Assignment2.genruntimeconfig.cache
+F:\.NET\.NET-Learning-Journey\#3 CSharp-Basics\#2 Assignment\Assignment2\obj\Debug\net9.0\ref\Assignment2.dll
