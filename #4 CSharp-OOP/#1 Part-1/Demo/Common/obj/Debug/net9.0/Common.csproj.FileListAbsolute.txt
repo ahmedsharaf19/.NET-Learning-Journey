@@ -1,0 +1,12 @@
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\bin\Debug\net9.0\Common.deps.json
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\bin\Debug\net9.0\Common.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\bin\Debug\net9.0\Common.pdb
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.AssemblyInfoInputs.cache
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.AssemblyInfo.cs
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.csproj.CoreCompileInputs.cache
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.sourcelink.json
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\refint\Common.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\Common.pdb
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#1 Part-1\Demo\Common\obj\Debug\net9.0\ref\Common.dll
