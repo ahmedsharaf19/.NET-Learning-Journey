@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#6 part-6\\demo\\demo\\partial\\employeemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|solutionrelative:demo\\partial\\employeemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#6 part-6\\demo\\demo\\partial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|solutionrelative:demo\\partial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#6 part-6\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D99499-9785-49F8-8896-FEE0B8E15A61}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeMethods.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Partial\\EmployeeMethods.cs",
+              "RelativeDocumentMoniker": "Demo\\Partial\\EmployeeMethods.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Partial\\EmployeeMethods.cs",
+              "RelativeToolTip": "Demo\\Partial\\EmployeeMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:11:31.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Partial\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo\\Partial\\Employee.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Partial\\Employee.cs",
+              "RelativeToolTip": "Demo\\Partial\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:09:10.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#6 Part-6\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:53:20.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

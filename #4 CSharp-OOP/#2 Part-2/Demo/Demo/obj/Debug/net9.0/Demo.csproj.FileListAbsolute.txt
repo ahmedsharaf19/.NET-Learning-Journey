@@ -1,0 +1,15 @@
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\bin\Debug\net9.0\Demo.exe
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\bin\Debug\net9.0\Demo.deps.json
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\bin\Debug\net9.0\Demo.runtimeconfig.json
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\bin\Debug\net9.0\Demo.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\bin\Debug\net9.0\Demo.pdb
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.AssemblyInfoInputs.cache
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.AssemblyInfo.cs
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.csproj.CoreCompileInputs.cache
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.sourcelink.json
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\refint\Demo.dll
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.pdb
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
+F:\.NET\.NET-Learning-Journey\#4 CSharp-OOP\#2 Part-2\Demo\Demo\obj\Debug\net9.0\ref\Demo.dll

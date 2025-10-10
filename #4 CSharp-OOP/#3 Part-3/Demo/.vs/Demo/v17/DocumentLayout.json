@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\demo\\inheritance\\typed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|solutionrelative:demo\\inheritance\\typed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\common\\typeb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|solutionrelative:common\\typeb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\common\\typec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|solutionrelative:common\\typec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\common\\typea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D47279D-7B7A-4122-AF92-FD323A908607}|Common\\Common.csproj|solutionrelative:common\\typea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\demo\\inheritance\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|solutionrelative:demo\\inheritance\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#3 part-3\\demo\\demo\\inheritance\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61ACF83-3D6B-4130-A1B3-F24636197539}|Demo\\Demo.csproj|solutionrelative:demo\\inheritance\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TypeD.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\TypeD.cs",
+              "RelativeDocumentMoniker": "Demo\\Inheritance\\TypeD.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\TypeD.cs",
+              "RelativeToolTip": "Demo\\Inheritance\\TypeD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:20:55.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TypeC.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeC.cs",
+              "RelativeDocumentMoniker": "Common\\TypeC.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeC.cs",
+              "RelativeToolTip": "Common\\TypeC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:15:01.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TypeB.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeB.cs",
+              "RelativeDocumentMoniker": "Common\\TypeB.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeB.cs",
+              "RelativeToolTip": "Common\\TypeB.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:59:15.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TypeA.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeA.cs",
+              "RelativeDocumentMoniker": "Common\\TypeA.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Common\\TypeA.cs",
+              "RelativeToolTip": "Common\\TypeA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:57:39.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:59:23.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Child.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\Child.cs",
+              "RelativeDocumentMoniker": "Demo\\Inheritance\\Child.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\Child.cs",
+              "RelativeToolTip": "Demo\\Inheritance\\Child.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T15:08:35.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\Parent.cs",
+              "RelativeDocumentMoniker": "Demo\\Inheritance\\Parent.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#3 Part-3\\Demo\\Demo\\Inheritance\\Parent.cs",
+              "RelativeToolTip": "Demo\\Inheritance\\Parent.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:59:15.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

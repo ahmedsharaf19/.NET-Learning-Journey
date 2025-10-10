@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#4 part-4\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#4 part-4\\demo\\demo\\binding\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|solutionrelative:demo\\binding\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#4 part-4\\demo\\demo\\binding\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|solutionrelative:demo\\binding\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#4 part-4\\demo\\demo\\binding\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644D734-7E74-4989-8646-82026BC6F4B0}|Demo\\Demo.csproj|solutionrelative:demo\\binding\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartTimeEmployee.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\PartTimeEmployee.cs",
+              "RelativeDocumentMoniker": "Demo\\Binding\\PartTimeEmployee.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\PartTimeEmployee.cs",
+              "RelativeToolTip": "Demo\\Binding\\PartTimeEmployee.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawCMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:09:32.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FullTimeEmployee.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\FullTimeEmployee.cs",
+              "RelativeDocumentMoniker": "Demo\\Binding\\FullTimeEmployee.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\FullTimeEmployee.cs",
+              "RelativeToolTip": "Demo\\Binding\\FullTimeEmployee.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T08:00:09.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo\\Binding\\Employee.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Binding\\Employee.cs",
+              "RelativeToolTip": "Demo\\Binding\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:57:14.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#4 Part-4\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:40:07.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

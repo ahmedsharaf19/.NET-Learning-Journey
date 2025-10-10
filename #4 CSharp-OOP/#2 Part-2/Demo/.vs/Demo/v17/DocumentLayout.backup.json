@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#2 part-2\\demo\\demo\\encapsulation\\phonenotebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|solutionrelative:demo\\encapsulation\\phonenotebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#2 part-2\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|f:\\.net\\.net-learning-journey\\#4 csharp-oop\\#2 part-2\\demo\\demo\\encapsulation\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0453F4E7-9F86-426F-8EC7-7CB501FADDBB}|Demo\\Demo.csproj|solutionrelative:demo\\encapsulation\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhoneNotebook.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Encapsulation\\PhoneNotebook.cs",
+              "RelativeDocumentMoniker": "Demo\\Encapsulation\\PhoneNotebook.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Encapsulation\\PhoneNotebook.cs",
+              "RelativeToolTip": "Demo\\Encapsulation\\PhoneNotebook.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwF8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:30:23.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Program.cs",
+              "RelativeToolTip": "Demo\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAF0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:29:44.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Encapsulation\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo\\Encapsulation\\Employee.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#4 CSharp-OOP\\#2 Part-2\\Demo\\Demo\\Encapsulation\\Employee.cs",
+              "RelativeToolTip": "Demo\\Encapsulation\\Employee.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:13:59.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
