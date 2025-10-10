@@ -14,8 +14,8 @@ I will update the progress using visual status icons as I complete each part.
 | Topic | Status |
 |-------|--------|
 | Intro to .NET and SDLC | ☑️ Completed |
-| Database (SQL) | ⏳ In Progress |
-| C# Basics | ⬜ Not Started |
+| Database (SQL) | ☑️ Completed |
+| C# Basics | ☑️ Completed |
 | C# OOP | ⬜ Not Started |
 | C# Advanced | ⬜ Not Started |
 | LINQ | ⬜ Not Started |
