@@ -1,0 +1,15 @@
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\bin\Debug\net9.0\LecEx.exe
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\bin\Debug\net9.0\LecEx.deps.json
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\bin\Debug\net9.0\LecEx.runtimeconfig.json
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\bin\Debug\net9.0\LecEx.dll
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\bin\Debug\net9.0\LecEx.pdb
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.GeneratedMSBuildEditorConfig.editorconfig
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.AssemblyInfoInputs.cache
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.AssemblyInfo.cs
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.csproj.CoreCompileInputs.cache
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.sourcelink.json
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.dll
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\refint\LecEx.dll
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.pdb
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\LecEx.genruntimeconfig.cache
+F:\.NET\.NET-Learning-Journey\#5 CSharp-Advanced\#2 Part-2\LecEx\LecEx\obj\Debug\net9.0\ref\LecEx.dll

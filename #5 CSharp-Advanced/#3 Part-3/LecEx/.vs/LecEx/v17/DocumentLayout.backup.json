@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\.NET\\.NET-Learning-Journey\\#5 CSharp-Advanced\\#3 Part-3\\LecEx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17524196-567B-4810-A2B8-4C6903D348D4}|LecEx\\LecEx.csproj|f:\\.net\\.net-learning-journey\\#5 csharp-advanced\\#3 part-3\\lecex\\lecex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17524196-567B-4810-A2B8-4C6903D348D4}|LecEx\\LecEx.csproj|solutionrelative:lecex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17524196-567B-4810-A2B8-4C6903D348D4}|LecEx\\LecEx.csproj|f:\\.net\\.net-learning-journey\\#5 csharp-advanced\\#3 part-3\\lecex\\lecex\\functionreturndelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17524196-567B-4810-A2B8-4C6903D348D4}|LecEx\\LecEx.csproj|solutionrelative:lecex\\functionreturndelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FunctionReturnDelegate.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#5 CSharp-Advanced\\#3 Part-3\\LecEx\\LecEx\\FunctionReturnDelegate.cs",
+              "RelativeDocumentMoniker": "LecEx\\FunctionReturnDelegate.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#5 CSharp-Advanced\\#3 Part-3\\LecEx\\LecEx\\FunctionReturnDelegate.cs",
+              "RelativeToolTip": "LecEx\\FunctionReturnDelegate.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T14:43:24.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\.NET\\.NET-Learning-Journey\\#5 CSharp-Advanced\\#3 Part-3\\LecEx\\LecEx\\Program.cs",
+              "RelativeDocumentMoniker": "LecEx\\Program.cs",
+              "ToolTip": "F:\\.NET\\.NET-Learning-Journey\\#5 CSharp-Advanced\\#3 Part-3\\LecEx\\LecEx\\Program.cs",
+              "RelativeToolTip": "LecEx\\Program.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAAAPgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T11:35:01.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
